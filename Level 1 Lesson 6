@@ -1,0 +1,43 @@
+package com.javarush.task.task01.task0121;
+
+/* 
+Вывести на экран текст нового контракта:
+Меня зовут Амиго.
+
+Я согласен на зарплату $800/месяц в первый год.
+Я согласен на зарплату $1500/месяц во второй год.
+Я согласен на зарплату $2200/месяц в третий год.
+Я согласен на зарплату $2700/месяц в четвертый год.
+Я согласен на зарплату $3200/месяц в пятый год.
+
+Поцелуй мой блестящий металлический зад!
+*/
+
+public class Solution {
+    public static void main (String[] args) {
+        String name = "Меня зовут Амиго.";
+        System.out.println (name);
+        
+        System.out.println ("");
+        
+        String firstyear = "Я согласен на зарплату $800/месяц в первый год.";
+        System.out.println (firstyear);
+        
+        String secondyear = "Я согласен на зарплату $1500/месяц во второй год.";
+        System.out.println (secondyear);
+        
+        String thirdyear = "Я согласен на зарплату $2200/месяц в третий год.";
+        System.out.println (thirdyear);
+        
+        String fourthyear = "Я согласен на зарплату $2700/месяц в четвертый год.";
+        System.out.println (fourthyear);
+        
+        String fifthyear = "Я согласен на зарплату $3200/месяц в пятый год.";
+        System.out.println (fifthyear);
+        
+        System.out.println ("");
+        
+        String Ass = "Поцелуй мой блестящий металлический зад!";
+        System.out.println (Ass);
+    }
+}
