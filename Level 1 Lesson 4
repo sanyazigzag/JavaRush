@@ -1,0 +1,21 @@
+package com.javarush.task.task01.task0114;
+
+/* 
+Напиши программу, которая выводит на экран надпись: "JavaRush. Learn once - use anywhere" 10 раз.
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        String JavaRush = ("JavaRush. Learn once - use anywhere");
+        System.out.println (JavaRush);
+        System.out.println (JavaRush);
+        System.out.println (JavaRush);
+        System.out.println (JavaRush);
+        System.out.println (JavaRush);
+        System.out.println (JavaRush);
+        System.out.println (JavaRush);
+        System.out.println (JavaRush);
+        System.out.println (JavaRush);
+        System.out.println (JavaRush);
+    }
+}
