@@ -1,0 +1,18 @@
+package com.javarush.task.task01.task0125;
+
+/* 
+Объяви недостающие переменные и закомментируй те, которые нигде не используются.
+*/
+
+public class Solution {
+    public static void main (String[] args) {
+        // String s = "15";
+        int a = 5; // There was "a = 5" here
+        // int z = 18;
+        int d = 18; // There was "d = 18" here
+        int c = a + d; // There was "c = a + d" here
+        String b = " is better than "; // There was "b = " is better than"" here
+
+        System.out.println (a + b + c);
+    }
+}
