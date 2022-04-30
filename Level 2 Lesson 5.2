@@ -1,0 +1,33 @@
+package com.javarush.task.task02.task0213;
+
+/* 
+Создай объект типа Cat (кот), объект типа Dog (собака), объект типа Fish (рыбка) и объект типа Woman.
+Присвой каждому животному владельца (owner).
+*/
+
+public class Solution {
+    public static void main (String[] args) {
+        Fish fish = new Fish ();
+        Cat cat = new Cat ();
+        Dog dog = new Dog ();
+        Woman woman = new Woman ();
+        fish.owner = woman;
+        cat.owner = woman;
+        dog.owner = woman;
+    }
+
+    public static class Cat {
+        public Woman owner;
+    }
+
+    public static class Dog {
+        public Woman owner;
+    }
+
+    public static class Fish {
+        public Woman owner;
+    }
+
+    public static class Woman {
+    }
+}
