@@ -1,0 +1,63 @@
+package com.javarush.task.task03.task0307;
+
+/* 
+Создать 5 зергов, 3 протосса и 4 террана.
+Дать им всем уникальные имена.
+*/
+
+public class Solution {
+    public static void main (String[] args) {
+        // Zerg National
+        // 1 person
+        Zerg zerg1 = new Zerg ();
+        zerg1.name = "Cratos";
+        // 2 person
+        Zerg zerg2 = new Zerg ();
+        zerg2.name = "Fobos";
+        // 3 person
+        Zerg zerg3 = new Zerg ();
+        zerg3.name = "Toros";
+        // 4 person
+        Zerg zerg4 = new Zerg ();
+        zerg4.name = "Soros";
+        // 5 person
+        Zerg zerg5 = new Zerg ();
+        zerg5.name = "Mubus";
+
+        // Protoss National
+        // 1 person
+        Protoss protoss1 = new Protoss ();
+        protoss1.name = "Leactor";
+        // 2 person
+        Protoss protoss2 = new Protoss ();
+        protoss2.name = "Reactor";
+        // 3 person
+        Protoss protoss3 = new Protoss ();
+        protoss3.name = "Injector";
+
+        // Terran National
+        // 1 person
+        Terran terran1 = new Terran ();
+        terran1.name = "Terano";
+        // 2 person
+        Terran terran2 = new Terran ();
+        terran2.name = "Barano";
+        // 3 person
+        Terran terran3 = new Terran ();
+        terran3.name = "Ugano";
+        // 4 person
+        Terran terran4 = new Terran ();
+        terran4.name = "Guano";
+    }
+    public static class Zerg {
+        public String name;
+    }
+
+    public static class Protoss {
+        public String name;
+    }
+
+    public static class Terran {
+        public String name;
+    }
+}
